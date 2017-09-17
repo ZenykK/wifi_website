@@ -3,7 +3,35 @@
 	margin: 0px !important;
 }*/
 
+body {
+	font-family: 'Source Sans Pro', 'sans-serif', serif;
+}
+
+/*HEADER*/
 #header img {
 	width: 100%;
 	height: auto;
+}
+
+/*BODY*/
+
+/*FOOTER*/
+#footer-content {
+	background-color: #00A0E3;
+	color: #fff;
+}
+
+#footer-bottom div {
+	background-image: url('../logos_sources/footer_pattern_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+}
+
+#footer-bottom span {
+	padding: 6px;
+	background-color: #A7CE39;
+	border-radius: 10px;
 }
