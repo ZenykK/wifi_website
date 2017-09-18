@@ -14,7 +14,7 @@ body {
 	border-radius: 10px;
 }
 
-/*top searchbox styling*/
+/*TOP SEARCHBAR STYLING*/
 #searchbar-top {
     padding: 3px;
     border: solid 1px #E4E4E4;
@@ -44,10 +44,11 @@ body {
 }
 
 #searchbar-top .glyphicon-search{
-    font-size: 23px;
+    font-size: 21px;
 }
 
 /*BODY*/
+
 
 /*FOOTER*/
 #footer-content {
