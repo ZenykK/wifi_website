@@ -10,7 +10,7 @@ body {
 /*--HEADER--*/
 #header img {
 	width: 100%;
-	height: auto
+	height: auto;
 	border-radius: 10px;
 }
 
@@ -48,12 +48,18 @@ body {
 }
 
 /*BODY*/
-
+#slider-top img {
+	width: 100%;
+}
 
 /*FOOTER*/
 #footer-content {
 	background-color: #00A0E3;
 	color: #fff;
+}
+
+#footer-content ul {
+	list-style: none;
 }
 
 #footer-bottom div {
