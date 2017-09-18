@@ -5,17 +5,18 @@
 	<title>LPNU WiFi Website</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="logos_sources/WiFi_favicon_128x128.ico" />
 
 </head>
 <body>
 	<div id="header" class="header container-fluid">
 		<div class="row">
-			<div class="col-md-5">
-				<img src="logos_sources/Website_WiFi_Logo_2_fullsize.jpg">
+			<div class="col-md-4">
+				<img src="logos_sources/Website_WiFi_Logo_2_fullsize.jpg" class="img-fluid">
 			</div>
-			<div class="col-md-7">
+			<div class="col-md-4">
 				<nav>
-					<ul>
+					<ul class="menu nav navbar-nav">
 						<li class="btn btn-lg">One</li>
 						<li class="btn btn-lg">Two</li>
 						<li class="btn btn-lg">Three</li>
@@ -24,10 +25,32 @@
 					</ul>
 				</nav>
 			</div>
+			<div class="col-md-2">
+				<div class="btn-group" data-toggle="buttons">
+  				<label class="btn btn-primary active">
+   					 <input type="radio" name="options" id="option1" checked>Ukr</label>
+  				<label class="btn btn-primary ">
+    				<input type="radio" name="options" id="option2">Eng</label>	
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div id="searchbar-top" class="input-group col-md-12">
+					<input type="text" class="form-control input-md"  placeholder="Пошук..."/>
+					<span class="input-group-btn">
+						<button class="btn btn-info btn-md" type="button">
+							<i class="glyphicon glyphicon-search"></i>
+						</button>
+					</span>
+					
+				</div>
+			</div>
 		</div>
 	</div>
 
 	<div id="content-wrapper" class="container">
+		<div id="slider-top" class="slider-top">
+			
+		</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
@@ -63,7 +86,7 @@
 		</div>
 		<div id="footer-bottom" class="row">
 			<div class="col-md-12">
-				<span>&copy; <a href="http://lp.edu.ua/">Національний університет «Львівська політехніка»</a>, 2005-2017.</span>
+				<span>&copy; <a href="http://lp.edu.ua/">Національний університет «Львівська політехніка»</a>, 2015-2017.</span>
 			</div>
 		</div>
 	</div>
