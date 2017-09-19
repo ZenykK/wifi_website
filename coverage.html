@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="logos_sources/WiFi_favicon_128x128.ico" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -18,7 +19,7 @@
         <img src="logos_sources/Website_WiFi_Logo_2_fullsize.jpg" class="img-fluid">
       </div>
       <div class="col-md-5">
-        <nav class="navbar" role="navigation">
+        <nav>
           <ul class="menu nav navbar-nav">
             <li class="btn btn-lg">Домашня сторінка</li>
             <li class="btn btn-lg">Покриття</li>
@@ -50,33 +51,34 @@
   </div>
 
   <div id="content-wrapper" class="container">
-  	<div id="slider-row" class="row">
-      <div class="col-md-12">
-        <div id="slider-top" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-          	<li data-target="#slider-top" data-slide-to="0" class="active"></li>
-            <li data-target="#slider-top" data-slide-to="1"></li>
-            <li data-target="#slider-top" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="logos_sources/Website_WiFi_Logo_2_fullsize.jpg" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="logos_sources/Website_WiFi_Logo_2_fullsize.jpg" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="logos_sources/Website_WiFi_Logo_2_fullsize.jpg" alt="Third slide">
-            </div>
-          </div>
-          	<a class="left carousel-control" href="#slider-top" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-            </a>
-            <a class="right carousel-control" href="#slider-top" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-            </a>
-        </div>  
-      </div>
+  	<div class="row">
+  		<div class="col-md-4">
+  			<nav class="navbar navbar-inverse" role="navigation">
+  				<!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+  				<div class="collapse navbar-collapse navbar-ex1-collapse">
+  					<ul class="nav navbar-nav side-nav">
+  						<li>
+  							<a href="#" data-toggle="collapse" data-target="#submenu-1">MENU 1 <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+  							<ul id="submenu-1" class="collapse">
+  								<li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 1.1</a></li>
+  								<li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 1.2</a></li>
+  								<li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 1.3</a></li>			
+  							</ul>
+  							<a href="#" data-toggle="collapse" data-target="#submenu-2">MENU 2 <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+  							<ul id="submenu-2" class="collapse">
+  								<li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 2.1</a></li>
+  								<li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 2.2</a></li>
+  								<li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 2.2</a></li>			
+  							</ul>
+  						</li>
+  					</ul>
+  					
+  				</div>
+  			</nav>
+  		</div>
+  		<div class="col-md-8">
+  			
+  		</div>	
     </div>
     
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
