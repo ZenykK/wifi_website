@@ -10,10 +10,18 @@ body {
 }
 
 /*--HEADER--*/
+#header {
+	padding: 15px;
+}
+
 #header img {
 	width: 100%;
 	height: auto;
 	border-radius: 10px;
+}
+
+#navButtons a {
+  background-color: #A7CE39;
 }
 
 /*TOP SEARCHBAR STYLING*/
@@ -134,8 +142,21 @@ body {
 	color: #fff;
 }
 
+#footer-content a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#footer-content h3 {
+	color: #0072BB;
+}
+
 #footer-content ul {
 	list-style: none;
+}
+
+#footer-content p {
+  padding: 15px 0 0 40px;
 }
 
 #footer-bottom div {

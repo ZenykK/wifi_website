@@ -17,27 +17,27 @@
       <div class="col-md-3">
         <img src="logos_sources/Website_WiFi_Logo_2_fullsize.jpg" class="img-fluid">
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6">
         <nav class="navbar" role="navigation">
-          <ul class="menu nav navbar-nav">
-            <li class="btn btn-lg">Домашня сторінка</li>
-            <li class="btn btn-lg">Покриття</li>
-            <li class="btn btn-lg">Інструкції</li>
-            <li class="btn btn-lg">F.A.Q.</li>
-            <li class="btn btn-lg">Контакти</li>
-          </ul>
+          <div id="navButtons" class="btn-group" data-toggle="buttons">
+            <a class="btn btn-lg" href="#">Home page</a>
+            <a class="btn btn-lg" href="#">Coverage</a>
+            <a class="btn btn-lg" href="#">Instructions</a>
+            <a class="btn btn-lg" href="#">F.A.Q.</a>
+            <a class="btn btn-lg" href="#">Contacts</a>
+          </div>
         </nav>
       </div>
-      <div class="col-md-2">
-        <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-primary active">
+      <div class="col-md-3">
+
+      	<div class="btn-group" data-toggle="buttons">
+          <label class="btn btn-primary btn-sm active">
              <input type="radio" name="options" id="option1" checked>Ukr</label>
-          <label class="btn btn-primary ">
+          <label class="btn btn-primary btn-sm">
             <input type="radio" name="options" id="option2">Eng</label> 
         </div>
-      </div>
-      <div class="col-md-2">
-        <div id="searchbar-top" class="input-group col-md-12">
+
+        <div id="searchbar-top" class="input-group">
           <input type="text" class="form-control input-md"  placeholder="Пошук..."/>
           <span class="input-group-btn">
             <button class="btn btn-info btn-md" type="button">
@@ -82,8 +82,7 @@
     <div id="sidemenu-row" class="row">
       <div class="col-md-4">
         <nav class="navbar navbar-inverse" role="navigation">
-          <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <div class="collapse navbar-collapse navbar-ex2-collapse">
             <ul class="nav navbar-nav side-nav">
               <li>
                 <a href="#" data-toggle="collapse" data-target="#submenu-1">MENU 1 <i class="fa fa-fw fa-angle-down"></i></a>
@@ -103,7 +102,7 @@
             
           </div>
         </nav>
-        <!-- <script type="text/javascript">
+<!--         <script type="text/javascript">
           $(function(){
               $('[data-toggle="tooltip"]').tooltip();
               $(".side-nav .collapse").on("hide.bs.collapse", function() {                   
@@ -113,7 +112,7 @@
                   $(this).prev().find(".fa").eq(1).removeClass("fa-angle-down").addClass("fa-angle-right");        
               });
           })
-        </script> -->
+        </script> --> 
       </div>  
     </div>
 
@@ -146,21 +145,18 @@
         </ul>
       </div>
       <div id="partners" class="col-md-4">
-        <h3><strong>Партнери</strong></h3>
-        <p><a href="#"><img src="" alt="Cisco"></p>
-        <p><a href="#"><img src="" alt="Укртелеком"></p>
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <a href="#">
-                <p>YouTube</p>
-                <p>Facebook</p>
-                <p></p>
-              </a>
-            </div>
-          </div>
-        </div>
+      	<ul>
+          <li><h3><strong>Партнери</strong></h3></li>
+          <li><a href="#">Cisco</a></li>
+          <li><a href="#">Укртелеком</a></li>
+        </ul>
+        <p id="socialMediaLinks">
+          <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-reddit fa-3x" aria-hidden="true"></i></a>
+        </p>
+
       </div>
     </div>
     <div id="footer-bottom" class="row">
