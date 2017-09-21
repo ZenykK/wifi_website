@@ -78,10 +78,52 @@
         </div>  
       </div>
     </div>
+
+    <div id="sidemenu-row" class="row">
+      <div class="col-md-4">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav side-nav">
+              <li>
+                <a href="#" data-toggle="collapse" data-target="#submenu-1">MENU 1 <i class="fa fa-fw fa-angle-down"></i></a>
+                <ul id="submenu-1" class="collapse">
+                  <li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 1.1</a></li>
+                  <li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 1.2</a></li>
+                  <li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 1.3</a></li>     
+                </ul>
+                <a href="#" data-toggle="collapse" data-target="#submenu-2">MENU 2 <i class="fa fa-fw fa-angle-down"></i></a>
+                <ul id="submenu-2" class="collapse">
+                  <li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 2.1</a></li>
+                  <li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 2.2</a></li>
+                  <li><a href="#"><i class="fa fa-angle-double-right"></i> Submenu 2.2</a></li>     
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+        </nav>
+        <!-- <script type="text/javascript">
+          $(function(){
+              $('[data-toggle="tooltip"]').tooltip();
+              $(".side-nav .collapse").on("hide.bs.collapse", function() {                   
+                  $(this).prev().find(".fa").eq(1).removeClass("fa-angle-right").addClass("fa-angle-down");
+              });
+              $('.side-nav .collapse').on("show.bs.collapse", function() {                        
+                  $(this).prev().find(".fa").eq(1).removeClass("fa-angle-down").addClass("fa-angle-right");        
+              });
+          })
+        </script> -->
+      </div>  
+    </div>
+
     
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
+    <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
+    <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
+    <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum eos quasi eligendi praesentium dignissimos deserunt necessitatibus blanditiis et quaerat natus adipisci dolor, vero explicabo nihil voluptatum repudiandae expedita mollitia deleniti!</p>
   </div>
 
@@ -89,7 +131,7 @@
     <div id="footer-content" class="row">
       <div class="col-md-4">
         <ul>
-          <li><h3><strong>Column tiltle 1</strong></h3></li>
+          <li><h3><strong>Column title 1</strong></h3></li>
           <li><a href="#">Link 1</a></li>
           <li><a href="#">Link 2</a></li>
           <li><a href="#">Link 3</a></li>
@@ -97,19 +139,28 @@
       </div>
       <div class="col-md-4">
         <ul>
-          <li><h3><strong>Column tiltle 2</strong></h3></li>
+          <li><h3><strong>Column title 2</strong></h3></li>
           <li><a href="#">Link 1</a></li>
           <li><a href="#">Link 2</a></li>
           <li><a href="#">Link 3</a></li>
         </ul>
       </div>
-      <div class="col-md-4">
-        <ul>
-          <li><h3><strong>Column tiltle 3</strong></h3></li>
-          <li><a href="#">Link 1</a></li>
-          <li><a href="#">Link 2</a></li>
-          <li><a href="#">Link 3</a></li>
-        </ul>
+      <div id="partners" class="col-md-4">
+        <h3><strong>Партнери</strong></h3>
+        <p><a href="#"><img src="" alt="Cisco"></p>
+        <p><a href="#"><img src="" alt="Укртелеком"></p>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#">
+                <p>YouTube</p>
+                <p>Facebook</p>
+                <p></p>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="footer-bottom" class="row">
