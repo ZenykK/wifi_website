@@ -171,5 +171,10 @@ body {
 #footer-bottom span {
 	padding: 6px;
 	background-color: #A7CE39;
+	background: #A7CE39; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(#B4F309, #A7CE39, #54B500); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#B4F309, #A7CE39, #54B500); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#B4F309, #A7CE39, #54B500); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#B4F309, #A7CE39, #54B500); /* Standard syntax */
 	border-radius: 10px;
 }
